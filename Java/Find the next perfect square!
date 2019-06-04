@@ -1,13 +1,13 @@
 public class NumberFun {
-	  public static long findNextSquare(long sq) {
-		  	int sqrt = (int) Math.sqrt(sq);
-		  	if (sqrt * sqrt == sq) {
-		  		sqrt += 1;
-		  		int nextSq = sqrt * sqrt;
-		  		return nextSq;
-		  	}
-		  	else {
-		  		return -1;
-		  	}
-	  }
+	public static long findNextSquare(long sq) {
+		int sqrt = (int) Math.sqrt(sq);
+		if (sqrt * sqrt == sq) {
+			sqrt += 1;
+			int nextSq = sqrt * sqrt;
+			return nextSq;
+		}
+		else {
+			return -1;
+		}
+	}
 }
