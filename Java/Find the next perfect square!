@@ -1,9 +1,9 @@
 public class NumberFun {
 	public static long findNextSquare(long sq) {
-		int sqrt = (int) Math.sqrt(sq);
+		long sqrt = (long) Math.sqrt(sq);
 		if (sqrt * sqrt == sq) {
 			sqrt += 1;
-			int nextSq = sqrt * sqrt;
+			long nextSq = sqrt * sqrt;
 			return nextSq;
 		}
 		else {
