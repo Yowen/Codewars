@@ -1,0 +1,16 @@
+public class Square {    
+    public static boolean isSquare(int n) {  
+	      if (n >= 0) {
+		        int sqrt = (int) Math.sqrt(n);
+			      if (sqrt * sqrt == n) {
+				        return true;
+			      }
+			      else {
+				        return false;
+			      }
+		    }
+		    else {
+			      return false;
+		    }
+    }
+}
